@@ -1,15 +1,9 @@
-import React from "react"
+import React from 'react';
 
-interface IProps {
+interface IProps {}
 
-}
-
-let Customer: React.FC<IProps> = ({}) => {
-    return (
-        <React.Fragment>
-            
-        </React.Fragment>
-    )
-}
+let Customer: React.FC<IProps> = () => {
+  return <React.Fragment></React.Fragment>;
+};
 
 export default Customer;
